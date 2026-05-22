@@ -130,14 +130,14 @@ p { margin: 0 0 1rem; }
   position: absolute; inset: 0;
   background-image: url("./images/fachada.jpg"),
                     linear-gradient(135deg, var(--emerald-deep), var(--green));
-  background-size: cover; background-position: center;
+  background-size: cover; background-position: center 28%;
   transform: scale(1.08);
   animation: heroZoom 18s ease-in-out infinite alternate;
 }
 @keyframes heroZoom { to { transform: scale(1); } }
 .hero-overlay {
   position: absolute; inset: 0;
-  background: linear-gradient(180deg, rgba(7,24,18,.80) 0%, rgba(7,24,18,.55) 45%, rgba(7,24,18,.88) 100%);
+  background: linear-gradient(180deg, rgba(7,24,18,.42) 0%, rgba(7,24,18,.28) 40%, rgba(7,24,18,.78) 100%);
 }
 .hero-content { position: relative; z-index: 2; color: var(--cream); padding: 8rem 0 5rem; max-width: 760px; }
 .hero-eyebrow {
