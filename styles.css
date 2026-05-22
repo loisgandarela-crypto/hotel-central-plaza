@@ -125,21 +125,17 @@ p { margin: 0 0 1rem; }
 /* ===================================================================
    HERO
    =================================================================== */
-.hero { position: relative; min-height: 100svh; display: flex; align-items: center; overflow: hidden; }
-.hero-bg {
-  position: absolute; inset: 0;
-  background-image: url("./images/fachada.jpg"),
-                    linear-gradient(135deg, var(--emerald-deep), var(--green));
-  background-size: cover; background-position: center 28%;
-  transform: scale(1.08);
-  animation: heroZoom 18s ease-in-out infinite alternate;
+.hero { position: relative; display: flex; flex-direction: column; overflow: hidden;
+  background: linear-gradient(160deg, var(--emerald-deep), var(--emerald)); }
+/* Foto completa de la portada (se muestra entera, sin recorte) */
+.hero-photo-wrap {
+  width: 100%; padding-top: 70px; /* deja ver la foto debajo del encabezado fijo */
+  display: flex; justify-content: center;
 }
-@keyframes heroZoom { to { transform: scale(1); } }
-.hero-overlay {
-  position: absolute; inset: 0;
-  background: linear-gradient(180deg, rgba(7,24,18,.42) 0%, rgba(7,24,18,.28) 40%, rgba(7,24,18,.78) 100%);
+.hero-photo {
+  display: block; width: 100%; max-width: 1100px; height: auto;
 }
-.hero-content { position: relative; z-index: 2; color: var(--cream); padding: 8rem 0 5rem; max-width: 760px; }
+.hero-content { position: relative; z-index: 2; color: var(--cream); padding: 2.6rem 0 3.4rem; max-width: 760px; }
 .hero-eyebrow {
   text-transform: uppercase; letter-spacing: .28em; font-size: .78rem; font-weight: 500;
   color: var(--gold-soft); margin-bottom: 1.2rem;
