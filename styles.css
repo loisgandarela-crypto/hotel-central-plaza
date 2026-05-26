@@ -80,6 +80,8 @@ p { margin: 0 0 1rem; }
 .site-header {
   position: fixed; inset: 0 0 auto 0; z-index: 100;
   padding: 1.1rem 0;
+  /* Sombra superior para que el logo y el menú (en blanco) se vean sobre la foto */
+  background: linear-gradient(180deg, rgba(7, 24, 18, .72) 0%, rgba(7, 24, 18, .35) 60%, rgba(7, 24, 18, 0) 100%);
   transition: background .3s ease, padding .3s ease, box-shadow .3s ease;
 }
 .site-header.scrolled {

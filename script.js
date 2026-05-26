@@ -75,7 +75,18 @@ const KNOWLEDGE_BASE = [
     answer:
       "Estamos en Av. Carlos Hank González y Av. Gobernadora, Col. Santa María " +
       "Tulpetlac, CP 55400, Ecatepec de Morelos, Estado de México 📍.\n\n" +
+      "Zona muy cercana a plazas comerciales y estratégicamente ubicados rumbo a " +
+      "las Pirámides de Teotihuacán y al Aeropuerto AIFA.\n\n" +
       "Aquí el mapa: https://maps.app.goo.gl/1mt51k2M16FXMDFd8",
+  },
+  {
+    id: "tipo_hotel",
+    label: "🏨 ¿Qué tipo de hotel es?",
+    keywords: ["negocios", "business", "familiar", "familia", "trabajo", "tipo", "ejecutivo", "empresa"],
+    answer:
+      "Somos un hotel versátil 🏨: ideal para parejas que buscan un momento " +
+      "romántico, pero también funcionamos como hotel de negocios y familiar. " +
+      "Además, estamos cerca de plazas comerciales y rumbo a Teotihuacán y al AIFA.",
   },
   {
     id: "reservar",
